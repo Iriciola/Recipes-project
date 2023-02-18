@@ -1,0 +1,138 @@
+/*
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+/*
+
+
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+  font-family: "Signika Negative", sans-serif;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+/* NAVIGATION */
+
+.main__nav-list {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.main__nav-link:link,
+.main__nav-link:visited {
+  text-decoration: none;
+  display: inline-block;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 0.8;
+}
+
+.main__nav-link:hover,
+.main__nav-link:active {
+  color: #bb773c;
+}
+
+/* MEALS SECTION */
+
+.section__meals {
+  padding-top: 48px;
+}
+
+.primary__heading {
+  text-align: center;
+  margin-bottom: 36px;
+  font-size: 36px;
+  align-items: center;
+}
+
+.images {
+  float: left;
+  width: 400px;
+  margin: 100px;
+}
+
+.subheading {
+  display: block;
+  font-size: 16px;
+  color: #bb773c;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  letter-spacing: 0.75px;
+}
