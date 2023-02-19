@@ -1,7 +1,7 @@
 # Recipes-project
 Inspired by Odin's project, decided to create a small website that includes some homemade recipes from people all over the world.
 
-- What is TOP?
+- What is <b>TOP</b>?
 
 The Odin Project provides a free open source coding curriculum that can be taken entirely online. Since its inception, it has helped many students get hired as developers and has assisted countless others in learning enough programming to work on their own personal projects.
 
