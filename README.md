@@ -13,5 +13,5 @@ You can check <strong>TOP</strong> by pressing this link: https://www.theodinpro
 
 
 
-## Photos were taken from pexels.com/
+## Photos were taken from [pexels.com/](https://www.pexels.com/)
 
